@@ -15,7 +15,7 @@ import java.time.Duration;
 
 
 public class UnlockService {
-    public static final int NEXT_BUTTON_CLICK_COUNT = 3;
+    public static final int NEXT_BUTTON_CLICK_COUNT = 4;
 
     public static void isViewLoaded() {
         MobileActionManager.waitVisibility(LockUnlockConstants.START_BUTTON);

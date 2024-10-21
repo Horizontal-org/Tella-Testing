@@ -4,7 +4,7 @@ Feature: Audio
   Background:
     Given the user is in Tella home page
 
-  @Smoke @Automated
+  @Smoke @Automated 
   Scenario Outline: Record an audio file
     When the user press the Rec option
     And the user press the microphone
